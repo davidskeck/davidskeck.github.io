@@ -60,6 +60,16 @@ a:visited { color: #205caa; }
   z-index: 1;
 }
 
+.site-header .column { float: right; margin-top: 15px; }
+
+.header-col-1 {
+  width: 335px; /*fallback*/
+  width: -webkit-calc(41.875%);
+  width: -moz-calc(41.875%);
+  width: -o-calc(41.875%);
+  width: calc(41.875%);
+}
+
 .site-nav {
   float: right;
   line-height: 56px;
