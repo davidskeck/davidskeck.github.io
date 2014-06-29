@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David Keck</title>
+    <description>Software development and a passion for learning. Periodic updates on current projects, thoughts, problems, solutions, and ideas.</description>
+    <link>http://www.davidskeck.com/</link>
+    <atom:link href="http://www.davidskeck.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Welcome.</title>
+        <description>&lt;p&gt;Hello, and welcome to my website.&lt;/p&gt;
+
+&lt;p&gt;I’m David Keck, and I’ll be your guide.&lt;/p&gt;
+
+&lt;p&gt;This site will contain quick dips into whatever I’m working on or thinking about.&lt;/p&gt;
+
+&lt;p&gt;Right now, I’m learning how to make a website. I’m using &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, which
+has been wonderful so far. It’s exactly what I was looking for. I highly recommend it to anyone
+who might also want to start a blog and isn’t super fond of Wordpress.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 28 Jun 2014 14:49:18 -0500</pubDate>
+        <link>http://www.davidskeck.com/blog/2014/06/28/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://www.davidskeck.com/blog/2014/06/28/welcome-to-jekyll/</guid>
+      </item>
+    
+  </channel>
+</rss>
