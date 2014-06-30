@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David Keck</title>
-    <description>Software developer with a passion for learning. Periodic updates on current projects, thoughts, problems, solutions, and ideas.</description>
+    <description>Software developer with a passion for learning. Periodic updates on current studies, projects, thoughts, problems, solutions, and ideas.</description>
     <link>http://www.davidskeck.com/</link>
     <atom:link href="http://www.davidskeck.com/feed.xml" rel="self" type="application/rss+xml" />
     
