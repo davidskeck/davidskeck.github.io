@@ -6,5 +6,30 @@
     <link>http://davidskeck.github.io/</link>
     <atom:link href="http://davidskeck.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
+      <item>
+        <title>Hello.</title>
+        <description>&lt;h3 id=&quot;who-am-i&quot;&gt;Who am I?&lt;/h3&gt;
+
+&lt;p&gt;I’m David Keck. I just graduated this May with a Bachelor of Computer Science. I love computers, and I started programming when I was about twelve or thirteen in Basic. Currently, I’m working at NASA as an intern, making flight software for an in development satellite.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-this-site&quot;&gt;What is this site?&lt;/h3&gt;
+
+&lt;p&gt;This is my personal website where I’ll be posting information about my projects, thoughts, and ideas. I’ll also be linking to anything I find interesting with “Link Love” posts every now and then. (Thanks for the idea, &lt;a href=&quot;http://www.marksdailyapple.com&quot;&gt;Mark Sisson&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;h3 id=&quot;how-can-i-contact-you&quot;&gt;How can I contact you?&lt;/h3&gt;
+
+&lt;p&gt;As you may have noticed, this website is lacking a comment section. This was partially intentional, and also partially because I am just learning the art of web design. If you have any comments or questions about anything you see on this website, feel free to email me using the “email” link above or below.  Use the title of the post as the email subject so I can better respond.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-your-favorite-color&quot;&gt;What’s your favorite color?&lt;/h3&gt;
+
+&lt;p&gt;Single favorite? Dark blue.&lt;/p&gt;
+
+&lt;p&gt;Favorite combination? Dark green and dark grey.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Jul 2014 07:40:50 -0500</pubDate>
+        <link>http://davidskeck.github.io/blog/2014/07/03/hello/</link>
+        <guid isPermaLink="true">http://davidskeck.github.io/blog/2014/07/03/hello/</guid>
+      </item>
+    
   </channel>
 </rss>
