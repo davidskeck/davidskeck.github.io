@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David Keck</title>
-    <description>Software developer with a passion for learning. Posting what inspires me and a few brain dumps. Currently reading: Apprenticeship Patterns</description>
+    <description>Software developer with a passion for learning. Posting what inspires me and a few brain dumps.</description>
     <link>http://davidskeck.github.io/</link>
     <atom:link href="http://davidskeck.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
