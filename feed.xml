@@ -1,128 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>David Keck</title>
-    <description>Software developer with a passion for learning. Posting what inspires me and a few brain dumps.</description>
-    <link>http://davidskeck.github.io/</link>
-    <atom:link href="http://davidskeck.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+    {% for post in site.posts limit:10 %}
       <item>
-        <title>Annual reading list</title>
-        <description>&lt;p&gt;This is a list of books and articles to read every year. Titles will be switched out as they become stale to me. There will be up to 10 items on this list at a time. Previously listed works are &lt;a href=&quot;https://github.com/davidskeck/Annual-Reading-List/blob/master/ARCHIVE.md&quot;&gt;archived&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;For the latest, visit the &lt;a href=&quot;https://github.com/davidskeck/Annual-Reading-List&quot;&gt;github repo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/11878168-anything-you-want&quot;&gt;Anything You Want - Derek Sivers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/123845.Self_Reliance_and_Other_Essays&quot;&gt;Self-Reliance - Ralph Waldo Emerson&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/5608045-apprenticeship-patterns&quot;&gt;Apprenticeship Patterns - Dave Hoover&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/170548.Don_t_Sweat_the_Small_Stuff_and_it_s_all_small_stuff&quot;&gt;Don’t Sweat the Small Stuff - Richard Carlson&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;articles&quot;&gt;Articles&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.theatlantic.com/health/archive/2014/06/happily-ever-after/372573/&quot;&gt;Masters of love - Emily Esfahani Smith&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bbc.com/news/magazine-27186709&quot;&gt;The slow death of purposeless walking - Finlo Rohrer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nytimes.com/2013/05/26/travel/slow-travel-walking-in-wales.html&quot;&gt;A long, wet walk in Wales - Dominique Browning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.salon.com/2011/09/15/roger_ebert/&quot;&gt;I do not fear death - Roger Ebert&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“As a single footstep will not make a path on the earth, so a single thought will not make a pathway in the mind. To make a deep physical path, we walk again and again. To make a deep mental path, we must think over and over the kind of thoughts we wish to dominate our lives.” - Henry David Thoreau&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I feel like a lot of people read important ideas once and never get the chance to implement them.
-The purpose of this list is that ideas that are important to me get the chance to take hold
-in my mind. By reading these works annually, I will be introduced to these ideas again
-and again until they become habitual to me.&lt;/p&gt;
-
-&lt;h2 id=&quot;join-me&quot;&gt;Join me!&lt;/h2&gt;
-&lt;p&gt;Click &lt;a href=&quot;https://www.google.com/calendar/event?action=TEMPLATE&amp;amp;tmeid=XzZ0MTMyZDFwODhvNDZiOWw2Y3MzY2I5azY0cmppYmExNjExM2FiOXA4NG9rNGNpNTg5MWtjaDlpODRfMjAxNTAxMDFUMjAwMDAwWiBkc3RldmVua2Vja0Bt&amp;amp;tmsrc=dstevenkeck%40gmail.com&quot;&gt;here&lt;/a&gt;
-to add an annual reminder.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 04 Aug 2014 05:49:50 -0500</pubDate>
-        <link>http://davidskeck.github.io/blog/2014/08/04/readinglist/</link>
-        <guid isPermaLink="true">http://davidskeck.github.io/blog/2014/08/04/readinglist/</guid>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
       </item>
-    
-      <item>
-        <title>There are no rules</title>
-        <description>&lt;p&gt;Recently, and, likely because I just graduated, I’ve been hearing dubious
-business advice like crazy. Stuff like “Don’t show your weaknesses”, and
-“Pretend to know everything.”&lt;/p&gt;
-
-&lt;p&gt;I’m sure it’s all well meaning, but, to me, it’s all garbage. It might be
-fine if you want to get a job under false pretenses or plan on getting a position
-that isn’t right for you or your employer.&lt;/p&gt;
-
-&lt;p&gt;If I don’t know a certain technology and I get asked about it in an interview, I always
-say directly that I don’t know anything about that, but I would be willing to
-learn. And, that’s only if I’m actually interested in learning it.&lt;/p&gt;
-
-&lt;p&gt;I want to expose my ignorance. Then I get to learn. If I come into a job
-acting like I know all about everything, I don’t get that chance.&lt;/p&gt;
-
-&lt;p&gt;You might be thinking, this guy has no idea about the “real-world” job market.
-And, you would be right! I think my naiveté and optimism will to serve me well.
-I don’t have to lie or feel pressured to perform in something I’ve never even
-given myself a chance to learn. I’m not disenchanted, and I can bring passion
-along with programming skills.&lt;/p&gt;
-
-&lt;p&gt;And, you know, I might not get the job that I thought I wanted. But that’s fine
-too. I have the luxury right now of being able to say no and accepting when
-companies do the same. I don’t have a family to support or any expenses
-that a minimum wage job couldn’t float for at least a few years.&lt;/p&gt;
-
-&lt;p&gt;I just know I would be much happier working at a Starbucks than under the
-thumb of some corporation that strangles my spirit.&lt;/p&gt;
-
-&lt;p&gt;You have to protect your spark of optimism and hope with everything you have. Too
-many people give up too soon or think that these are just the rules of the business world.&lt;/p&gt;
-
-&lt;p&gt;There are no rules. Do what makes sense to you.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 13 Jul 2014 07:49:18 -0500</pubDate>
-        <link>http://davidskeck.github.io/blog/2014/07/13/norules/</link>
-        <guid isPermaLink="true">http://davidskeck.github.io/blog/2014/07/13/norules/</guid>
-      </item>
-    
-      <item>
-        <title>&quot;Anything You Want&quot; - Book review</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/11878168-anything-you-want&quot;&gt;&lt;img src=&quot;http://davidskeck.github.io/assets/DerekSivers-AnythingYouWant-300x378.jpg&quot; alt=&quot;Anything You Want Cover&quot; title=&quot;Anything You Want - Derek Sivers&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I had the chance to read this book about a week ago. I expected to just
-read the first few pages before heading into work, but I found it so enthralling that
-I read the whole thing that morning. It only took about an hour, just like
-Derek said it would in the first chapter.&lt;/p&gt;
-
-&lt;p&gt;As you can tell, this book is pretty short. The content feels almost obsessively
-pared down to the most relevant message possible.&lt;/p&gt;
-
-&lt;p&gt;I love this book is because its voice is so lucid. Everything was so clear and
-easy to follow.&lt;/p&gt;
-
-&lt;p&gt;The chapters of the book are just dripping with understanding. Each scenario
-offers a chance to see a new perspective and step back from what might be
-considered “common sense” to illuminate an important insight that was made.&lt;/p&gt;
-
-&lt;p&gt;At the end of the book, Sivers invites anyone who has “made it this far” to email him
-with any comments or questions. I took advantage of this offer and I received an email
-back the very next day. It is obvious he cares about his readers, and it was
-nice to know that Sivers embodies the qualities he discusses in this book.&lt;/p&gt;
-
-&lt;p&gt;I feel like I learned a lot, and I definitely laughed a lot, but the most
-important thing I experienced from reading this book was an overwhelming
-sense of optimism and empowerment.&lt;/p&gt;
-
-&lt;h2 id=&quot;rating-1010&quot;&gt;Rating: 10/10&lt;/h2&gt;
-</description>
-        <pubDate>Mon, 07 Jul 2014 11:10:18 -0500</pubDate>
-        <link>http://davidskeck.github.io/blog/bookreview/2014/07/07/anything/</link>
-        <guid isPermaLink="true">http://davidskeck.github.io/blog/bookreview/2014/07/07/anything/</guid>
-      </item>
-    
+    {% endfor %}
   </channel>
 </rss>
