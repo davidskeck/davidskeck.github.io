@@ -1,51 +1,22 @@
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kronik3r/daktilo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+i! I'm David Keck. This is Easily Fascinated. It's my personal website about endless curiosity, optimism, and fascination for life. It's one of my ways of following [Mary Oliver](http://maryoliver.beacon.org)'s wonderful instructions for living a life.
 
-# Daktilo
-Daktilo is a [Jekyll](jekyllrb.com) theme with a minimal design inspired from typewriters.
+> Instructions for living a life.  
+> Pay attention.  
+> Be astonished.  
+> Tell about it.
 
-# More info and Live preview
+I started this website because I want a place to share things I care about and I want to do it on my terms.
+
+This is what the web was [designed](https://kottke.org/18/04/the-missing-building-blocks-of-the-web) to do -- allow you to upload what you want to your own little corner of it. I'm grateful to have place to do that.
+
+It took me a while to figure out why I would even want to have my own website when there are so many ways to share things online. Reading about how the web is supposed to work helped me understand. The web is made for sharing. Creating is part of being a citzen of the Internet. Putting your data into walled gardens where it's sold to the highest bidder isn't my vision for the Internet.
+
+I hope it isn't yours either.
+
+I made this website using a framework called [Jekyll](https://jekyllrb.com). It's very easy to get started. It gives me hope that there could be a future where making your own website becomes the norm and cookie-cutter, data-harvesting social media goes the way of the Dodo.
+
+I hope you enjoy your time on my site! If you have anything to add, feel free to [drop me a line](mailto:hello@davidskeck.com) anytime.
+
+This site was made with the Daktilo [Jekyll](jekyllrb.com) theme.
+
 [Click here](http://daktilo.github.io/) to see the theme in action.
-
-# Features
-- Fully responsive
-- [Disqus](https://disqus.com/) integration for comments.
-- Google Analytics integration.
-- Syntax Highlighter (using [highlight.js](https://highlightjs.org/)).
-- Support for categories.
-- Font-Awesome Icons.
-- Optimized for SEO.
-- Coolest [404 page ever](http://electrik-frog.com/daktilo/404.html).
-
-# How to use it
-Start by cloning the repository, then check the `_config.yml` file and change it accordingly.
-Note that the `title` property is what will be displayed as logo.
-
-Finally execute `jekyll serve --watch` and head to [localhost:4000](http://127.0.0.1:4000) to see the result.
-
-# Using categories
-Categories are little bit tricky. Please make sure to do the following for each category:
-
-- Create a file within `categories` folder with the name of your category
-For example let's say that we have a category called `An Awesome Category` you will need to add an `an-awesome-category.html` file with this content:
-
-``` html
----
-layout: category
-category: an-awesome-category
-permalink: /categories/an-awesome-category/
----
-
-```
-
-- Create an entry inside `_data/categories.yml`
-
-``` html
-- slug: an-awesome-category
-  name: An Awesome Category
-```
-
-- Then you will see it in the footer in the `Explore` section.
-
-# License
-
-The contents of this repository is licensed under [The MIT License.](https://opensource.org/licenses/MIT)
