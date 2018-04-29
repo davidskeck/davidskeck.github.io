@@ -1,4 +1,6 @@
-i! I'm David Keck. This is Easily Fascinated. It's my personal website about endless curiosity, optimism, and fascination for life. It's one of my ways of following [Mary Oliver](http://maryoliver.beacon.org)'s wonderful instructions for living a life.
+# Easily Fascinated
+
+Hi! I'm David Keck. This is Easily Fascinated. It's my personal website about endless curiosity, optimism, and fascination for life. It's one of my ways of following [Mary Oliver](http://maryoliver.beacon.org)'s wonderful instructions for living a life.
 
 > Instructions for living a life.  
 > Pay attention.  
