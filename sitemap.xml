@@ -113,7 +113,7 @@
     <url>
       <loc>https://davidskeck.github.io//about/</loc>
       
-        <lastmod>2018-04-05T23:49:10-04:00</lastmod>
+        <lastmod>2018-04-29T16:33:07-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -128,7 +128,7 @@
     <url>
       <loc>https://davidskeck.github.io//categories/design/</loc>
       
-        <lastmod>2018-04-05T23:49:10-04:00</lastmod>
+        <lastmod>2018-04-29T16:33:07-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -145,7 +145,7 @@
     <url>
       <loc>https://davidskeck.github.io//</loc>
       
-        <lastmod>2018-04-05T23:49:10-04:00</lastmod>
+        <lastmod>2018-04-29T16:33:07-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -162,7 +162,7 @@
     <url>
       <loc>https://davidskeck.github.io//categories/productivity/</loc>
       
-        <lastmod>2018-04-05T23:49:10-04:00</lastmod>
+        <lastmod>2018-04-29T16:33:07-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -181,7 +181,7 @@
     <url>
       <loc>https://davidskeck.github.io//categories/tools/</loc>
       
-        <lastmod>2018-04-05T23:49:10-04:00</lastmod>
+        <lastmod>2018-04-29T16:33:07-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -196,7 +196,22 @@
     <url>
       <loc>https://davidskeck.github.io//assets/css/style.css</loc>
       
-        <lastmod>2018-04-05T23:49:10-04:00</lastmod>
+        <lastmod>2018-04-29T16:33:07-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://davidskeck.github.io//arl_signup.html</loc>
+      
+        <lastmod>2018-04-29T16:33:07-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
