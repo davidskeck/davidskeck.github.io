@@ -4,7 +4,7 @@ title:  "Celeste"
 date:   2018-09-15
 ---
 
-[Celeste](https://www.celestegame.com) is a game that surprises you with empathy. 
+[Celeste](http://www.celestegame.com) is a game that surprises you with empathy. 
 
 One second you're just barely making it across some chasm, heart racing... the next your heart is warmed by a storyline that's so relatable and so human that you might never see it coming.
 
