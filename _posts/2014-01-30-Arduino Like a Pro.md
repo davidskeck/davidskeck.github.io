@@ -43,6 +43,6 @@ Thanks for following my progress on this project!
 
 [pwm]: https://arduino.cc/en/Tutorial/PWM
 
-[monk-book]:https//www.amazon.com/Programming-Arduino-Getting-Started-Sketches/dp/0071784225
+[monk-book]:https://www.amazon.com/Programming-Arduino-Getting-Started-Sketches/dp/0071784225
 
 [adafruit-forum-post]: https://forums.adafruit.com/viewtopic.php?f=31&t=47431
