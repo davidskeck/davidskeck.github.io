@@ -4,7 +4,7 @@ date: 2014-01-30
 title: "Coding Like Curiosity - Part 1: Arduino Like a Pro"
 ---
 
-![image](/assets/curioduino_wip.jpg)
+![image](/assets/CurioDuino_wip.jpg)
 *CurioDuino with all three obstacle sensors attached. (Photo credit: David Keck)*
 
 When I started this project, I knew almost nothing about Arduino. Today, I’m going to detail what I’ve learned about the Arduino platform over the past month.
