@@ -4,7 +4,7 @@ date: 2014-01-30
 title: "Coding Like Curiosity - Part 1: Arduino Like a Pro"
 ---
 
-![image](/assets/curioduino_wip.jpg)
+![image](/assets/CurioDuino_wip.jpg)
 *CurioDuino with all three obstacle sensors attached. (Photo credit: David Keck)*
 
 When I started this project, I knew almost nothing about Arduino. Today, I’m going to detail what I’ve learned about the Arduino platform over the past month.
@@ -25,9 +25,9 @@ Here’s what I’m currently planning to use for this project:
 
 1. [Arduino Uno R3](https://www.pololu.com/product/2191)
 
-2. [Pololu Zumo Shield with Robot and Reflectance Array](http://www.pololu.com/product/2506)
+2. [Pololu Zumo Shield with Robot and Reflectance Array](https://www.pololu.com/product/2506)
 
-3. [Three Sharp Digital Distance Sensors 5cm](http://www.pololu.com/product/1132)
+3. [Three Sharp Digital Distance Sensors 5cm](https://www.pololu.com/product/1132)
 
 4. Adafruit Bluefruit EZ Link Shield with Stacking Headers
 
@@ -37,12 +37,12 @@ Thanks for following my progress on this project!
 
 [electronics-tutorials]: https://www.sparkfun.com/tutorials/219
 
-[digital-read]: http://arduino.cc/en/Reference/digitalRead
+[digital-read]: https://arduino.cc/en/Reference/digitalRead
 
-[analog-input]: http://arduino.cc/en/Tutorial/AnalogInput
+[analog-input]: https://arduino.cc/en/Tutorial/AnalogInput
 
-[pwm]: http://arduino.cc/en/Tutorial/PWM
+[pwm]: https://arduino.cc/en/Tutorial/PWM
 
-[monk-book]:http://www.amazon.com/Programming-Arduino-Getting-Started-Sketches/dp/0071784225
+[monk-book]:https://www.amazon.com/Programming-Arduino-Getting-Started-Sketches/dp/0071784225
 
-[adafruit-forum-post]: http://forums.adafruit.com/viewtopic.php?f=31&t=47431
+[adafruit-forum-post]: https://forums.adafruit.com/viewtopic.php?f=31&t=47431
