@@ -18,7 +18,3 @@ I hope it isn't yours either.
 I made this website using a framework called [Jekyll](https://jekyllrb.com). It's very easy to get started. It gives me hope that there could be a future where making your own website becomes the norm and cookie-cutter, data-harvesting social media goes the way of the Dodo.
 
 I hope you enjoy your time on my site! If you have anything to add, feel free to [drop me a line](mailto:hello@davidskeck.com) anytime.
-
-This site was made with the Daktilo [Jekyll](jekyllrb.com) theme.
-
-[Click here](http://daktilo.github.io/) to see the theme in action.
