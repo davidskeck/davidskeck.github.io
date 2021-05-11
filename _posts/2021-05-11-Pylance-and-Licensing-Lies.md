@@ -24,6 +24,6 @@ There is a way to continue using the normal, fully open source Python tool, but 
 2. Edit the settings of the Python tool to set `Jedi` as the default language server.
 3. Restart VSCode
 
-This is just another warning to carefully vet your tools and turn off automatic updates if you don't want Microsoft or some other tool to casually change the license without warning. I would also suggest using [VSCodium](https://vscodium.com/), which will remove the proprietary blobs that Microsoft packages on top of VSCode as well.
+This is a PSA to carefully vet your tools and turn off automatic updates if you don't want Microsoft or some other developer to casually change the license without warning. I would also suggest using [VSCodium](https://vscodium.com/), which will remove the proprietary blobs that Microsoft packages on top of VSCode as well.
 
-Overall this is a disappointing move by Microsoft to take a well-used and functional Python tool and install a tool without even the chance to consent that is incompatible with many people's vision for computing.
+Overall this is a disappointing move by Microsoft to take a well-used and functional Python tool and inject closed-source, properietary software  without even the chance to consent. This is incompatible with many people's vision for computing.
