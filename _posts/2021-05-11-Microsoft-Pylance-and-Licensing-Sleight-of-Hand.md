@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Microsoft, Pylance, and Licensing Lies"
+title:  "Microsoft, Pylance, and Licensing Sleight of Hand"
 date:   2021-05-11
 ---
 
@@ -26,4 +26,4 @@ There is a way to continue using the normal, fully open source Python tool, but 
 
 This is a PSA to carefully vet your tools and turn off automatic updates if you don't want Microsoft or some other developer to casually change the license without warning. I would also suggest using [VSCodium](https://vscodium.com/), which will remove the proprietary blobs that Microsoft packages on top of VSCode as well.
 
-Overall this is a disappointing move by Microsoft to take a well-used and functional Python tool and inject closed-source, properietary software  without even the chance to consent. This is incompatible with many people's vision for computing.
+This is a disappointing move by Microsoft to take a well-used and functional Python tool and inject closed-source, properietary software binary without even the chance to consent. When licences change, users must be notified and given the chance to accept or decline the new terms, not have to catch Microsoft in a sleight of hand trick. 
