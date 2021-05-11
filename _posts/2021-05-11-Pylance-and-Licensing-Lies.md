@@ -20,7 +20,7 @@ This is a user-hostile, abusive action for people who care about open source and
 
 There is a way to continue using the normal, fully open source Python tool, but it is no longer the default.
 
-1. Remove the Pylance installation
+1. Remove the Pylance installation by clicking "Uninstall" in the Extensions side panel.
 2. Edit the settings of the Python tool to set `Jedi` as the default language server.
 3. Restart VSCode
 
