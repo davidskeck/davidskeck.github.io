@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Microsoft, Pylance and Licensing Lies"
+title:  "Microsoft, Pylance, and Licensing Lies"
 date:   2021-05-11
 ---
 
