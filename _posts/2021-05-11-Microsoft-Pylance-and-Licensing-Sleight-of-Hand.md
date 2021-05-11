@@ -4,7 +4,7 @@ title:  "Microsoft, Pylance, and Licensing Sleight of Hand"
 date:   2021-05-11
 ---
 
-[Pylance](https://github.com/microsoft/pylance-release) is a closed source tool created by Microsoft to provide various features to the VSCode editor when writing Python code.
+[Pylance](https://github.com/microsoft/pylance-release) is a closed source tool created by Microsoft to provide Python language server support to the VSCode editor. It can be used in place of the [Jedi](https://github.com/davidhalter/jedi) Python tool.
 
 Today, [vscode-python](https://github.com/Microsoft/vscode-python) was updated to fetch Pylance automatically and install it without prompting the user.
 
